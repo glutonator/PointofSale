@@ -8,7 +8,7 @@ public class Scanner {
 //        String tmp = this.iScanner.getBarCode(text);
 //        return tmp;
 //    }
-    public String getBarCode() {
+    public String getBarCode() throws InvalidBarCodeException {
         String tmp =this.iScanner.getBarCode();
         return tmp;
     }
